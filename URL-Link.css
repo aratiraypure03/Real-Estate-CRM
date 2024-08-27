@@ -1,0 +1,63 @@
+
+
+.input-group-prepend
+{
+    height: 40px;
+}
+
+
+
+.input-group button{
+    border-color: rgb(173, 173, 173);
+    height: 60px;
+    padding: 0px 17px;
+    height: 40px;
+    /* display: flex;
+    flex-direction: column; */
+   
+}
+
+.form-control{
+    border-color: rgb(164, 164, 164);
+    color: rgb(65, 65, 65);
+}
+
+.input-group button:hover{
+    border-color: rgb(164, 164, 164);
+    background-color: rgb(229, 229, 229);
+    
+   
+}
+
+.form-control:hover{
+    border-color: rgb(226, 226, 226);
+    
+}
+
+.position-absolute {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow:  0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+    color: red;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    
+}
+
+.position{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow:  0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+    color: red;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+

@@ -1,0 +1,121 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.bg-img-container
+{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.bg-img-container .bg-box
+{
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.bg-img-container .bg:hover
+{
+   transform: scale(1.1);
+}
+.bg-img-container .bg img
+{
+   height: 80px;
+   width:80px;
+   border-radius: 8px;
+   border:1px solid #ddd;
+   cursor:pointer;
+}
+
+/* fonts container */
+
+.font-container .fonts-style
+{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.fonts-style .cancel
+{
+    width: 80px;
+    height: 80px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.font-container .fonts-style .fonts
+{
+    border: 1px solid rgb(148, 148, 148);
+    height: 80px;
+    width:80px;
+    border-radius:8px;
+    font-size: 25px;
+    color: darkblue;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-container .fonts-style .fonts:hover
+{
+    background-color: rgb(250, 250, 250);
+    transform: scale(1.1);
+}
+
+
+/* card style */
+
+.card-style-heading
+{
+    display: flex;
+    gap:10px;
+}
+
+.card-style-content  .input-group,.card-style-content .range-form
+{
+   width:500px;
+   height:40px;
+}
+
+.cardBox
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.shadow
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:6px;
+    padding:0px 10px;
+}
+
+
+
+
+
+
